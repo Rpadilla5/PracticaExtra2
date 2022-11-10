@@ -4,22 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57577a55-4990-480b-b72c-219eebb25ad4" name="Changes" comment="ServerConfig creado">
-      <change afterPath="$PROJECT_DIR$/config-file/prendas.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prendas/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prendas/src/main/java/com/hiberus/practicaExtra2/springcloudConfig/prendas/PrendasApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prendas/src/main/java/com/hiberus/practicaExtra2/springcloudConfig/prendas/domain/Prenda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prendas/src/main/java/com/hiberus/practicaExtra2/springcloudConfig/prendas/repository/PrendaRespository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prendas/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-eureka/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-eureka/src/main/java/com/hiberus/practicaExtra2/springcloudConfig/EurekaServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-eureka/src/main/resources/application.properties" afterDir="false" />
+    <list default="true" id="57577a55-4990-480b-b72c-219eebb25ad4" name="Changes" comment="EurekaServer creado">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-file/gateway.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prendas/src/main/java/com/hiberus/practicaExtra2/prendas/PrendasApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prendas/src/main/java/com/hiberus/practicaExtra2/prendas/controller/PrendasController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prendas/src/main/java/com/hiberus/practicaExtra2/prendas/repository/PrendaRespository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-gateway/src/main/java/com/hiberus/practicaExtra2/springcloudGateway/GatewayServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-gateway/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-config/src/main/java/com/hiberus/practicaExtra2/springcloudconfig/ConfigServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-config/src/main/java/com/hiberus/practicaExtra2/springcloudConfig/ConfigServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prendas/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/prendas/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prendas/src/main/java/com/hiberus/practicaExtra2/springcloudConfig/prendas/PrendasApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prendas/src/main/java/com/hiberus/practicaExtra2/springcloudConfig/prendas/domain/Prenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/prendas/src/main/java/com/hiberus/practicaExtra2/prendas/domain/Prenda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prendas/src/main/java/com/hiberus/practicaExtra2/springcloudConfig/prendas/repository/PrendaRespository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-config/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,8 +70,8 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "corretto-11",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RunAnythingCache">
@@ -79,13 +80,13 @@
       <command value="mvn install" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.com.hiberus.practicaExtra2.springcloudConfig.ConfigServerApplication">
-    <configuration name="ConfigServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hiberus.practicaExtra2.springcloudconfig.ConfigServerApplication" />
-      <module name="spring-cloud-config" />
+  <component name="RunManager" selected="Application.PrendasApplication">
+    <configuration name="EurekaServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hiberus.practicaExtra2.springcloudConfig.EurekaServerApplication" />
+      <module name="spring-cloud-eureka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hiberus.practicaExtra2.springcloudconfig.*" />
+          <option name="PATTERN" value="com.hiberus.practicaExtra2.springcloudConfig.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +94,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EurekaServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hiberus.practicaExtra2.springcloudConfig.EurekaServerApplication" />
-      <module name="spring-cloud-eureka" />
+    <configuration name="GatewayServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hiberus.practicaExtra2.springcloudGateway.GatewayServerApplication" />
+      <module name="spring-cloud-gateway" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hiberus.practicaExtra2.springcloudConfig.*" />
+          <option name="PATTERN" value="com.hiberus.practicaExtra2.springcloudGateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrendasApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hiberus.practicaExtra2.prendas.PrendasApplication" />
+      <module name="prendas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hiberus.practicaExtra2.prendas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,10 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrendasApplication" />
         <item itemvalue="Application.com.hiberus.practicaExtra2.springcloudConfig.ConfigServerApplication" />
+        <item itemvalue="Application.GatewayServerApplication" />
         <item itemvalue="Application.EurekaServerApplication" />
         <item itemvalue="Application.com.hiberus.practicaExtra2.prendas.springcloudconfig.ConfigServerApplication" />
-        <item itemvalue="Application.ConfigServerApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668069936098</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="EurekaServer creado">
+      <created>1668071194830</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668071194830</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -187,6 +209,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ServerConfig creado" />
-    <option name="LAST_COMMIT_MESSAGE" value="ServerConfig creado" />
+    <MESSAGE value="EurekaServer creado" />
+    <option name="LAST_COMMIT_MESSAGE" value="EurekaServer creado" />
   </component>
 </project>

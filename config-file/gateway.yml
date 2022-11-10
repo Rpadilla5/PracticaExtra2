@@ -1,0 +1,12 @@
+server:
+  port: 9000
+spring:
+  application:
+    name: SpringCloudGateway
+  cloud:
+    gateway:
+      routes:
+        - id: prendas
+          uri: http://localhost:8089
+          predicates:
+            - Path=/prendas/**

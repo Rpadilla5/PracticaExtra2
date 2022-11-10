@@ -12,6 +12,7 @@
         <module>spring-cloud-config</module>
         <module>prendas</module>
         <module>spring-cloud-eureka</module>
+        <module>spring-cloud-gateway</module>
     </modules>
 
     <properties>

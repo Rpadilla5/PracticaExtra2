@@ -1,4 +1,4 @@
-package com.hiberus.practicaExtra2.springcloudConfig.prendas.domain;
+package com.hiberus.practicaExtra2.prendas.domain;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
@@ -11,5 +11,4 @@ public class Prenda {
     String nombre;
     String descripcion;
     float precioBase;
-
 }
