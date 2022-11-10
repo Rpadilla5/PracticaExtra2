@@ -1,0 +1,14 @@
+server:
+  port: 8085
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Rpadilla5/PracticaExtra2.git
+          searchPaths: config-file
+          username: Rpadilla5
+          password: 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
+          default-label: master
+  application:
+    name: SpringServerConfig
