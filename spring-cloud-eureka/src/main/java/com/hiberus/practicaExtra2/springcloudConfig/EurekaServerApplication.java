@@ -1,14 +1,15 @@
-package com.hiberus.practicaExtra2.springcloudconfig;
+package com.hiberus.practicaExtra2.springcloudConfig;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
-import org.springframework.cloud.config.server.EnableConfigServer;
+import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 @SpringBootApplication(exclude={DataSourceAutoConfiguration.class})
-@EnableConfigServer
-public class ConfigServerApplication {
+@EnableEurekaServer
+public class EurekaServerApplication {
     public static void main(String[] args) {
-        SpringApplication.run(ConfigServerApplication.class, args);
+        SpringApplication.run(EurekaServerApplication.class, args);
+
     }
 }

@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: prendas
+  datasource:
+    url: jdbc:mysql://localhost:3307/prendas-db
+    username: root
+    password: Hiberus2.0
+  jpa:
+    hibernate:
+      ddl-auto: update
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
+
+server:
+  port: 8089
