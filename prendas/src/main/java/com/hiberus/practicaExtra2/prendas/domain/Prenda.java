@@ -11,4 +11,5 @@ public class Prenda {
     String nombre;
     String descripcion;
     float precioBase;
+    char talla;
 }

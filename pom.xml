@@ -13,6 +13,8 @@
         <module>prendas</module>
         <module>spring-cloud-eureka</module>
         <module>spring-cloud-gateway</module>
+        <module>Stock</module>
+        <module>library</module>
     </modules>
 
     <properties>

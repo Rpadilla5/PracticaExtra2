@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: stock
+  datasource:
+    url: jdbc:mysql://localhost:3308/stock-db
+    username: root
+    password: Hiberus2.0
+  jpa:
+    hibernate:
+      ddl-auto: update
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
+
+server:
+  port: 8081
