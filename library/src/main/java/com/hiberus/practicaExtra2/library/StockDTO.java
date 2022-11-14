@@ -1,14 +1,12 @@
 package com.hiberus.practicaExtra2.library;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
+@ToString
 
 public class StockDTO {
 

@@ -15,5 +15,13 @@ services:
     ports:
       - "3308:3306"
     environment:
-      - "MYSQL_DATABASE=prendas-db"
+      - "MYSQL_DATABASE=stock-db"
+      - "MYSQL_ROOT_PASSWORD=Hiberus2.0"
+
+  recursos-db:
+    image: mysql:8.0
+    ports:
+      - "3309:3306"
+    environment:
+      - "MYSQL_DATABASE=recursos-db"
       - "MYSQL_ROOT_PASSWORD=Hiberus2.0"

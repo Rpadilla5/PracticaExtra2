@@ -15,6 +15,7 @@
         <module>spring-cloud-gateway</module>
         <module>Stock</module>
         <module>library</module>
+        <module>recursos</module>
     </modules>
 
     <properties>
